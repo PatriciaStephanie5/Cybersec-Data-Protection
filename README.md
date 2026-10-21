@@ -5,6 +5,14 @@ This project explores fundamental data protection mechanisms, cryptography conce
 
 ---
 
+## Tools & Technologies Used
+
+* **Microsoft BitLocker (`manage-bde`):** Used for configuring and verifying Full Disk Encryption (FDE) and TPM key protection on Windows OS.
+* **Encrypted File System (EFS):** Utilized for granular file- and directory-level security controls.
+* **Steganography Online Utility ([stylesuxx.github.io/steganography](https://stylesuxx.github.io/steganography/)):** Web-based tool used to analyze payload embedding, binary image transformations, and visual artifact changes[cite: 1, 2].
+* **Windows Command Prompt / Administrator Terminal:** Executed system-level administration commands to inspect volume encryption and key management[cite: 3].
+
+---
 ## Core Techniques & Objectives
 
 | Technique | Purpose | Implementation Context |
